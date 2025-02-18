@@ -52,4 +52,3 @@ def get_item(item_id):
 @main_routes.route('/health')
 def health():
     return jsonify(status="Healthy", uptime="45 days")
-    
